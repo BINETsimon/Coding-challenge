@@ -18,9 +18,9 @@
     <script>
         console.log;
        
-        var login = document.getElementById('connexion').innerHTML;
-        var modp = document.getElementById('mdp').innerHTML;
-        var mail = document.getElementById('e-mail').innerHTML;
+        var login = document.getElementById('connexion').value;
+        var modp = document.getElementById('mdp').value;
+        var mail = document.getElementById('e-mail').value;
 
         function go(){
             if ((login="") & (modp="") & (mail="" )){
@@ -28,6 +28,7 @@
                 document.getElementById('place').innerHTML = msg;
             }
         }
+
 
         var text = 0;
         var verification = document.getElementById('password');
