@@ -145,6 +145,11 @@ nav img:hover{
     flex-direction: column;
 }
 
+#connexionBlock h1{
+    margin-bottom: 80px;
+    font-size: xx-large;
+}
+
 #connexionBlock input{
     font-size: xx-large;
     margin-bottom: 10px;
