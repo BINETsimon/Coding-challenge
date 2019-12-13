@@ -178,3 +178,9 @@ nav img:hover{
 #goodbox{
     
 }
+
+
+.number {   
+	height: 900px;	
+	display: flex;
+}
