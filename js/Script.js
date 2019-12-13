@@ -13,9 +13,9 @@ function Verify(which){
                     S2.style.color = "red";
                 }else{
                     S2.style.color = "transparent";
-                    S3.style.color = "transparent";
                     S1.style.color = "transparent";
                     good.style.display = "flex";
+                    console.log('cc');
                 }
             }else{
                 S2.innerHTML = "Le champ mdp est vide";
