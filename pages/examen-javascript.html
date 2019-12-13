@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/exemen.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="exercice" id="exo1">
+        <h3>1) Division d'un nombre par 2</h3>
+        <input type="number" id="nombreExo1">
+        <button onclick="exo1()">/2</button>
+        <p id="resultExo1"></p>
+    </div>
+    <div class="exercice" id="exo2">
+        <h3>2) Calculatrice</h3>
+        <p id="resultExo2">Veuillez entrer un entier...</p>
+        <div class="numero">
+            <button onclick="exo2(0)">0</button>
+            <button onclick="exo2(1)">1</button>
+            <button onclick="exo2(2)">2</button>
+            <button onclick="exo2(3)">3</button>
+            <button onclick="exo2(4)">4</button>
+            <button onclick="exo2(5)">5</button>
+            <button onclick="exo2(6)">6</button>
+            <button onclick="exo2(7)">7</button>
+            <button onclick="exo2(8)">8</button>
+            <button onclick="exo2(9)">9</button>
+        </div>
+        <div class="operateur">
+            <button onclick="exo2('div')">/</button>
+            <button onclick="exo2('plus')">+</button>
+            <button onclick="exo2('resultat')">=</button>
+        </div>
+        <div class="enplus">
+            <button onclick="exo2('moins10')">-10</button>
+            <button onclick="exo2('fois5')">*5</button>
+            <button onclick="exo2('div2')">/2</button>
+            <button onclick="exo2('fois5')">*5</button>
+        </div>
+        <button onclick="exo2('reset')">reset</button>
+    </div>
+</body>
+<script src="../js/examen-script.js"></script>
+</html>

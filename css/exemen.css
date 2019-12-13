@@ -1,0 +1,20 @@
+html{
+    width: 100%;
+}
+
+.exercice{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 600px;
+}
+
+button{
+    width: 300px;
+}
+
+#exo2 button{
+    width: 50px;
+}
