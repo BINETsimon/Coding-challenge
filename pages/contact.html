@@ -30,10 +30,23 @@
     <section>
         <div>
             <h2>Vous aimez cette page ?</h2>
-            <button onclick="oui">OUI !</button>
-            <button onclick="bof">Bof...</button>
-            <button onclick="skip">Skip</button>
+            <button onclick="oui()">OUI !</button>
+            <button onclick="bof()">Bof...</button>
+            <button onclick="skip()">Skip</button>
+            <p id="text"></p>
         </div>
+
+        <script>
+        function oui() {
+            var text = "Souhaitez vous bénéficier de nos offres spéciales?";
+            document.getElementById('text').innerHTML = text;
+        }
+        function bof(){
+            var bofbof = "Aidez-nous à améliorer notre site"
+            document.getElementById('text').innerHTML = text = bofbof;
+        }
+        </script>
+
     </section>
 </body>
 </html>
