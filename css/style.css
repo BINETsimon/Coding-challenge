@@ -167,9 +167,24 @@ nav img:hover{
 
 #connexionBlock span{
     color: white;
+}
+
+#good{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#goodbox{
     
 }
 
 .number Inosuke {
     height: 200px;
+}
+
+.number {   
+	height: 900px;	
+	display: flex;
 }
