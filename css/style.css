@@ -12,6 +12,16 @@ header{
     width: 100%;
 }
 
+footer{
+    background-color: rgb(20, 18, 37);    
+    height: 200px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;    
+}
+
 
 /* NAVIGATION */
 
