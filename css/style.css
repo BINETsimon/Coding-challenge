@@ -15,24 +15,37 @@ header{
 nav{
     width: 100%;
     position: relative;
+    height: 100px;
+}
+
+nav #PageLink a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+    transition: 0.8s;
+    width: 200px;
+}
+nav #PageLink  a:hover{
+    color: white;
+    background-color: black;
 }
 
 #navigation1920{
     display: flex;
-}
-#navigation900{
-    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 #navigation400{
     display: none;
 }
+
 @media screen and (max-width: 900px){
-    #navigation900{
-        display: flex;
-    }
+
 }
 @media screen and (max-width: 400px){
-    #navigation900{
+    #navigation1920{
         display: none;
     }
     #navigation400{
@@ -40,3 +53,6 @@ nav{
     }
 }
 
+nav img{
+    height: 80%;
+}
