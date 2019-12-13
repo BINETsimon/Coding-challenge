@@ -169,14 +169,23 @@ nav img:hover{
 }
 
 #good{
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0, 0.5);
     display: none;
     width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 #goodbox{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50vw;
+    height: 50vh;
 }
 
 
