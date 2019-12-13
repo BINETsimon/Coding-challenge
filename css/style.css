@@ -19,7 +19,8 @@ footer{
 
 footer a{
     color: white;
-    text-decoration: none;    
+    text-decoration: none;   
+    flex-direction: column; 
 }
 
 
@@ -169,8 +170,6 @@ nav img:hover{
     
 }
 
-
-.number {   
-	height: 900px;	
-	display: flex;
+.number Inosuke {
+    height: 200px;
 }
