@@ -50,3 +50,7 @@ function exo2(valeur){
             break;
     }
 }
+
+function exo3(){
+    
+}
