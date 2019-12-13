@@ -189,11 +189,11 @@ nav img:hover{
     height: 50vh;
 }
 
-.number Inosuke {
-    height: 200px;
+.left{
+    display: flex;
+	justify-content: space-around;
 }
-
-.number {   
-	height: 900px;	
-	display: flex;
+.right{
+    display: flex;
+	justify-content: space-around;
 }
