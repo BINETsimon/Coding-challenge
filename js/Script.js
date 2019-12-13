@@ -4,10 +4,7 @@ function Verify(which){
     var S1 = document.getElementById('one').innerHTML;
     var S2 = document.getElementById('two').innerHTML;
     var S3 = document.getElementById('three').innerHTML;
-                
-    
-    
-   
+                  
 
     switch(which){
         case 1:
@@ -39,7 +36,7 @@ function Verify(which){
                 }
             }else{
                 alert('Tous les champs ne sont pas remplis réessayez');
-                2.style.color = "red";
+                S2.style.color = "red";
                 S3.style.color = "red";
                 S1.style.color = "red";
             }
