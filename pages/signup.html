@@ -9,20 +9,35 @@
 <body>
     <section>
         <input type="text" id="connexion" placeholder="login"> </br>
-        <input type="text" id="mdp" placeholder="password"> </br>
-        <input type="text" id="email" placeholder="e-mail"> </br>
-    <button onclick="go()">valider</button>
+         <input type="text" id="mdp" placeholder="password"> </br>
+         <input type="text" id="email" placeholder="e-mail"> </br>
+        <button onclick="go()">valider</button>
+        <p id="place"></p>
     </section>
 
     <script>
+        console.log;
+       
+        var login = document.getElementById('connexion').innerHTML;
+        var modp = document.getElementById('mdp').innerHTML;
+        var mail = document.getElementById('e-mail').innerHTML;
+
+        function go(){
+            if ((login="") & (modp="") & (mail="" )){
+                var msg = "Vous n'avez pas remplis tous les champs !";
+                document.getElementById('place').innerHTML = msg;
+            }
+        }
+
         var text = 0;
         var verification = document.getElementById('password');
 
-        function go(){
-            if (text > 6 & <12){
-                var erreur = "Votre mdp n'est pas correct. Réessayez."
+        function koko(){
+            if (text < 6 && text > 12){
+                var erreur = "Votre mdp n'est pas correct. Réessayez.";
+                document.getElementById('place') = erreur;
                 } else {
-                
+                var correct 
             }
         }
 
