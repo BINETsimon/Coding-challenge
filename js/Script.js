@@ -49,3 +49,20 @@ function Verify(which){
 }
 
 
+function SelectionPrix() {
+    var prix = document.getElementById('prix').value;
+    document.getElementById('Euros').innerHTML = prix;
+    var Gratuit = document.getElementById('0E');
+    var quinze = document.getElementById('15E');
+    var vingtneuf = document.getElementById('29E');
+    Gratuit.style.opacity = 0.3;
+    quinze.style.opacity = 0.3;
+    vingtneuf.style.opacity = 0.3;
+    if (prix < 15){
+        Gratuit.style.opacity = 1;
+    } else if((prix >= 15) && (prix < 29)){
+        quinze.style.opacity = 1;
+    } else if (prix >= 29){
+        vingtneuf.style.opacity = 1;
+    }
+}
