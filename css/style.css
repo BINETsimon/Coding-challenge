@@ -19,20 +19,18 @@ nav{
 
 #navigation1920{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #navigation900{
     display: none;
 }
-#navigation400{
-    display: none;
-}
+
 @media screen and (max-width: 900px){
-    #navigation900{
-        display: flex;
-    }
+
 }
 @media screen and (max-width: 400px){
-    #navigation900{
+    #navigation1920{
         display: none;
     }
     #navigation400{
